@@ -1,0 +1,15 @@
+syntax: glob
+
+.DS_Store
+*log
+main.js
+pom.xml
+*jar
+/classes/
+/.lein-deps-sum
+/.lein-failures
+/.lein-env
+/checkouts
+/.env
+/target
+/out
