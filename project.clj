@@ -3,7 +3,9 @@
                  [org.clojure/clojurescript "1.9.229"]
                  [cljsjs/react "15.2.1-1"]
                  [cljsjs/react-dom "15.2.1-1"]
-                 [sablono "0.7.4"]]
+                 [sablono "0.7.4"]
+                 [cljsjs/rot "0.6.0-0"]
+                 [enfocus "2.1.1"]]
   :plugins [[lein-figwheel "0.5.8"]]
   :clean-targets [:target-path "out"]
   :cljsbuild {

@@ -6,4 +6,5 @@
              [:h1 "Seymore's quantified popularity: " (:likes @data)]
              [:div [:a {:href "#"
                         :onClick #(swap! data update-in [:likes] inc)}
-                    "Thumbs up"]]]))
+                    "Thumbs up"]]
+             [:div#canvas]]))
