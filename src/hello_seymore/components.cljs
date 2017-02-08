@@ -1,4 +1,4 @@
-(ns hello-seymore/components
+(ns hello-seymore.components
   (:require [sablono.core :as sab]))
 
 (defn like-seymore [data]
